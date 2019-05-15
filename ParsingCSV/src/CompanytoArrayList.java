@@ -15,7 +15,7 @@ public class CompanytoArrayList {
 			companyBuffer = new BufferedReader(new FileReader("employee.csv"));
 			
 			// How to read file in java line by line?
-			System.out.println("starting to read a file")
+			System.out.println("starting to read the selected file")
 			while ((companyLine = companyBuffer.readLine()) != null) {
 				System.out.println("Raw CSV data: " + companyLine);
 				System.out.println("Converted ArrayList data: " + companyCSVtoArrayList(companyLine) + "\n");
