@@ -20,7 +20,7 @@ public class CompanytoArrayList {
 				System.out.println("Raw CSV data: " + companyLine);
 				System.out.println("Converted ArrayList data: " + companyCSVtoArrayList(companyLine) + "\n");
 			}
-			System.out.println("Finally done")
+			System.out.println("Finally done....")
 
 		} catch (IOException e) {
 			e.printStackTrace();
